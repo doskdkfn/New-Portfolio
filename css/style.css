@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,body,div,video,ul,li {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+
+@font-face {
+    src: url("../font/NanumSquareR.ttf");
+    font-family: "나눔스퀘어";
+}
+
+body {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/************************* 비디오 태그 *************************/
+
+header {
+    position: relative;
+}
+
+#web-back {
+    width: 100%;
+    height: 100%;
+    /* height: -webkit-fill-available; */
+    position: absolute;
+    overflow: hidden;
+}
+
+#web-back > video {
+    width: 100%;
+}
+
+/************************* header *************************/
+
+#title {
+    padding-top: 30px;
+    margin-left: 75px;
+}
+
+#title > a {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu-box {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+
+.menu > li {
+    width: 370px;
+    margin-bottom: 95px;
+    margin-left: 80px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/************************* 호버시 번역 **************************/
+
+/*************** 첫번째 호버 ***************/
+
+.menu > li > a:hover ~ .sub-text1 {
+    display: block;
+}
+
+.sub-text1 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+/*************** 두번째 호버 ***************/
+
+.menu > li > a:hover ~ .sub-text2 {
+    display: block;
+}
+
+.sub-text2 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+/*************** 세번째 호버 ***************/
+
+.menu > li > a:hover ~ .sub-text3 {
+    display: block;
+}
+
+.sub-text3 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+/*************** 네번째 호버 ***************/
+
+.menu > li > a:hover ~ .sub-text4 {
+    display: block;
+}
+
+.sub-text4 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+/*************** 다섯번째 호버 ***************/
+
+.menu > li > a:hover ~ .sub-text5 {
+    display: block;
+}
+
+.sub-text5 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
