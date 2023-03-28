@@ -48,7 +48,7 @@ header {
 /************************* header *************************/
 
 #title {
-    padding-top: 30px;
+    padding-top: 75px;
     margin-left: 75px;
 }
 
@@ -65,7 +65,7 @@ header {
 
 .menu {
     position: absolute;
-    top: 150px;
+    top: 350px;
     z-index: 2;
 }
 
