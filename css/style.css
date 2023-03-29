@@ -15,16 +15,20 @@ html,body,div,video,ul,li {
     list-style: none;
 }
 
+/* @font-face {
+    font-family: "Nanum";
+    src: url("../Kfont/NanumSquareR.ttf");
+    unicode-range: U+AC00-D7A3;
+} */
+
 @font-face {
-    src: url("../font/NanumSquareR.ttf");
-    font-family: "나눔스퀘어";
+    font-family: 'Bebas Neue', cursive;;
+    src: url("../Efont/BebasNeue-Regular.ttf");
 }
 
 body {
     color: #fff;
     font-size: 12px;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /************************* 비디오 태그 *************************/
@@ -71,7 +75,7 @@ header {
 }
 
 .menu > li {
-    width: 370px;
+    width: 400px;                     /*jquery-mobile 적용전 370px*/
     margin-bottom: 95px;
     margin-left: 80px;
     font-size: 23px;
@@ -79,14 +83,16 @@ header {
     color: #fff;
 }
 
-.menu > li > a {
+/* .menu > li > a {
     text-shadow: 5px 5px 5px rgb(158, 158, 148);
-}
+} */
 
 /************************* 호버시 강조 **************************/
 
 .menu > li > a:hover {
     font-weight: bold;
+    /* background: var(--clr); */
+    text-shadow: 5px 5px 5px var(--clr);
 }
 
 
