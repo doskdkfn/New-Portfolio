@@ -53,7 +53,7 @@ header {
 
 #title {
     padding-top: 75px;
-    margin-left: 75px;
+    margin-left: 95px;
 }
 
 #title > a {
@@ -77,7 +77,7 @@ header {
 .menu > li {
     width: 400px;                     /*jquery-mobile 적용전 370px*/
     margin-bottom: 95px;
-    margin-left: 80px;
+    margin-left: 100px;
     font-size: 23px;
     text-transform: uppercase;
     color: #fff;
