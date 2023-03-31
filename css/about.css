@@ -13,6 +13,9 @@ html,body,div,video,ul,li {
     margin: 0;
     padding: 0; 
     list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* @font-face {
@@ -95,7 +98,7 @@ section {
 
 #about-back {
     width: 750px;
-    height: 660px;
+    height: 700px;
     background: rgba(85, 83, 83, 0.5);
     position: absolute;
     left: 170px;
@@ -115,11 +118,92 @@ section {
     color: rgb(230, 221, 221);
 }
 
-.about-sub > li:hover {
-    color: rgba(255, 230, 0, 0.979);
+.about-sub > li:first-child {
+    width: 156px;
+    height: 65px;
+    color: rgba(255, 230, 0, 0.801);
     border-top: 3px solid;
     border-bottom: 3px solid;
 }
+
+.about-sub > li:hover {
+    width: 137px;
+    height: 65px;
+    color: rgba(255, 230, 0, 0.801);
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.about-section {
+    background: rgba(00, 00, 00, 0.5);
+    width: 750px;
+    height: 635px;
+    margin: 0 auto;
+}
+
+/************************* 소개 페이지지 **************************/
+
+.about-flex {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 35px;
+}
+
+.img {
+    margin-left: 30px;
+}
+
+.img > img {
+    width: 200px;
+    height: 190px;
+    background: #000;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.text > ul > li {
+    font-size: 17px;
+    line-height: 2.0;
+}
+
+/************ about me ***********/
+
+.about-me {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.about-me > h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+
+.about-me > p {
+    line-height: 1.4;
+}
+
+/************ motto ************/
+
+.motto {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.motto > h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.motto > p {
+    line-height: 1.4;
+}
+
 
 
 
