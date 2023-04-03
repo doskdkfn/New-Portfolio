@@ -15,3 +15,27 @@
 //         });
 //     }
 // }
+
+$(document).ready(function () {
+    $(".more-btn").click(function () {
+        $(".more-t-box").animate({left: "102%"}, 200);
+        $(".more-t-box").fadeIn(600);
+        $(".more-btn").fadeOut(200);
+        $(".close-btn").fadeIn(200);
+    });
+
+    $(".close-btn").click(function () {
+        $(".more-t-box").animate({left: "6.5%"}, 300);
+        $(".more-t-box").fadeOut(600);
+        $(".more-btn").fadeIn(200);
+        $(".close-btn").fadeOut(200);
+    });
+
+    // $(".close-btn").click(function (){
+    //     $(".more-btn").show(100);
+    // });
+
+    // $(".more-btn").click(function (){
+    //     $(".close-btn").show(100);
+    // });
+});

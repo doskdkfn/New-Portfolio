@@ -215,6 +215,66 @@ section {
     line-height: 1.4;
 }
 
+/*************** more-btn ***************/
+
+
+.more-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+.right {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+/************************* more-text-box **************************/
+
+.more-t-box {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.7);
+    position: absolute;
+    top: 9.3%;
+    left: 6.5%;
+    display: none;
+}
+
+/*************** close-btn ***************/
+
+.close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+.left {
+    margin-right: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+}
 
 
 
@@ -263,4 +323,8 @@ section {
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+}
+
+.back-page > a:hover {
+    color: rgba(255, 230, 0, 0.801);
 }
