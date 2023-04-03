@@ -111,24 +111,29 @@ section {
 }
 
 .about-sub > li {
+    width: 220px;
     background: #000;
     padding: 20px 40px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
     color: rgb(230, 221, 221);
 }
 
 .about-sub > li:first-child {
-    width: 156px;
+    width: 220px;
     height: 65px;
+    font-size: 17px;
+    font-weight: bold;
     color: rgba(255, 230, 0, 0.801);
     border-top: 3px solid;
     border-bottom: 3px solid;
 }
 
 .about-sub > li:hover {
-    width: 137px;
+    width: 220px;
     height: 65px;
+    font-size: 17px;
+    font-weight: bold;
     color: rgba(255, 230, 0, 0.801);
     border-top: 3px solid;
     border-bottom: 3px solid;
@@ -181,7 +186,9 @@ section {
     margin-bottom: 10px;
 }
 
-
+.me-title {
+    line-height: 3;
+}
 
 .about-me > p {
     line-height: 1.4;
@@ -191,13 +198,17 @@ section {
 
 .motto {
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .motto > h2 {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+
+.motto-title {
+    line-height: 3;
 }
 
 .motto > p {
