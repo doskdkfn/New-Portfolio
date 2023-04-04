@@ -251,7 +251,7 @@ section {
     position: absolute;
     top: 9.3%;
     left: 6.5%;
-    display: none;
+    /* display: none; */
 }
 
 /*************** close-btn ***************/
