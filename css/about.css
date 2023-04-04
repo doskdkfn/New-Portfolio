@@ -119,7 +119,7 @@ section {
     color: rgb(230, 221, 221);
 }
 
-.about-sub > li:first-child {
+/* .about-sub > li:first-child {
     width: 220px;
     height: 65px;
     font-size: 17px;
@@ -127,7 +127,9 @@ section {
     color: rgba(255, 230, 0, 0.801);
     border-top: 3px solid;
     border-bottom: 3px solid;
-}
+} */
+
+
 
 .about-sub > li:hover {
     width: 220px;
