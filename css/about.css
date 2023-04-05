@@ -247,11 +247,11 @@ section {
 .more-t-box {
     width: 700px;
     height: 635px;
-    background: rgba(00, 00, 00, 0.7);
+    background: rgba(00, 00, 00, 0.8);
     position: absolute;
     top: 9.3%;
     left: 6.5%;
-    /* display: none; */
+    display: none;
 }
 
 /*************** close-btn ***************/
@@ -276,6 +276,31 @@ section {
     margin-right: 5px;
     margin-top: 2px;
     font-size: 20px;
+}
+
+/************************* more-text **************************/
+
+.more-text {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.more-title {
+    width: 700px;
+    background: #000;
+}
+
+.more-title > h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgba(255, 230, 0, 0.801);
+    font-size: 21px;
+}
+
+.more-text > p  {
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 60px;
 }
 
 
