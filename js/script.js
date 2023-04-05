@@ -18,15 +18,15 @@
 
 $(document).ready(function () {
     $(".more-btn").click(function () {
-        $(".more-t-box").animate({left: "102%"}, 500);
+        // $(".more-t-box").animate({left: "102%"}, 500);
         $(".more-t-box").fadeIn(600);
         $(".more-btn").fadeOut(600);
         $(".close-btn").fadeIn(600);
     });
 
     $(".close-btn").click(function () {
-        $(".more-t-box").animate({left: "6.5%"}, 500);
-        $(".more-t-box").fadeOut(300);
+        // $(".more-t-box").animate({left: "6.5%"}, 500);
+        $(".more-t-box").fadeOut(600);
         $(".more-btn").fadeIn(600);
         $(".close-btn").fadeOut(600);
     });
