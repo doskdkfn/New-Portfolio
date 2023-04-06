@@ -312,7 +312,7 @@ section {
 
 .skill-box > h2 {
     font-size: 20px;
-    padding: 25px 0 5px 30px;
+    padding: 25px 0 5px 33px;
 }
 
 .skill-sub {
@@ -331,7 +331,9 @@ section {
 .skill-sub > li > img {
     width: 105px;
     height: 105px;
-    background: darkgray;
+    background: #a9a9a940;
+    border-radius: 20px;
+    /* background: darkgray; */
 }
 
 
