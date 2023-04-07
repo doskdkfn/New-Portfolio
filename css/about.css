@@ -308,7 +308,13 @@ section {
     padding-left: 15px;
 }
 
-/************************* about2 (skill) **************************/
+/************************************* about2 (skill) ************************************/
+
+/************************************* about3 (skill) ************************************/
+
+.skill-box {
+    margin-bottom: 45px;
+}
 
 .skill-box > h2 {
     font-size: 20px;
@@ -335,6 +341,21 @@ section {
     border-radius: 20px;
     /* background: darkgray; */
 }
+
+/************************* skill-text-box **************************/
+
+.skill-t-box {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+/************************* skill-progress **************************/
+
 
 
 
