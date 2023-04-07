@@ -99,7 +99,7 @@ section {
 #about-back {
     width: 750px;
     height: 700px;
-    background: rgba(85, 83, 83, 0.5);
+    /* background: rgba(85, 83, 83, 0.5); */
     position: absolute;
     left: 170px;
     top: 40px;
@@ -142,7 +142,7 @@ section {
 }
 
 .about-section {
-    background: rgba(00, 00, 00, 0.5);
+    background: rgb(36 35 35 / 50%);
     width: 750px;
     height: 635px;
     margin: 0 auto;
