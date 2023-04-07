@@ -308,7 +308,32 @@ section {
     padding-left: 15px;
 }
 
-/************************************* about2 (skill) ************************************/
+/************************************* about2 (career) ************************************/
+
+.career-box {
+    width: 750px;
+    height: 580px;
+    padding: 30px 0 0 35px;
+}
+
+.career-box > h2 {
+    padding-bottom: 30px;
+}
+
+/************** career-table ************/
+
+.career-table {
+    display: flex;
+}
+
+.career-num {
+    font-size: 19px;
+}
+
+.career-text {
+    padding: 0 0 10px 10px;
+    font-size: 18px;
+}
 
 /************************************* about3 (skill) ************************************/
 
