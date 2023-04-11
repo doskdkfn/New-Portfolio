@@ -317,7 +317,7 @@ section {
 }
 
 .career-box > h2 {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 /************** career-table ************/
@@ -346,7 +346,7 @@ section {
     position: absolute;
     top: 9.3%;
     left: 102%;
-    /* display: none; */
+    display: none;
 }
 
 .cert {
