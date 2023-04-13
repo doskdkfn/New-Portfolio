@@ -420,6 +420,33 @@ section {
 
 
 
+/************************************* about4 (hobby) ************************************/
+
+.hobby-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    padding-top: 40px;
+}
+
+.hobby-box > ul > li {
+    background: #a9a9a940;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 129px;
+    text-align: center;
+}
+
+.hobby-box > ul > li > img {
+    width: 130px;
+    height: 110px;
+    /* background: gray; */
+    border-radius: 20px;
+    margin-top: 9px;
+}
+
+
 
 
 
