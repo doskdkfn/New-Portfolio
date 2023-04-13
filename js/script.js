@@ -39,6 +39,14 @@ $(document).ready(function () {
     //     $(".close-btn").show(100);
     // });
 
+    $(".hobby-img").click(function () {
+        $(".hobby-t-box").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box").fadeOut(600);
+    });
+
 });
 
 /************** 스킬 그래프 모션 **************/
