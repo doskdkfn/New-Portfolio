@@ -39,12 +39,20 @@ $(document).ready(function () {
     //     $(".close-btn").show(100);
     // });
 
-    $(".hobby-img").click(function () {
-        $(".hobby-t-box").fadeIn(600);
+    $(".hobby-img1").click(function () {
+        $(".hobby-t-box1").fadeIn(600);
     });
 
     $(".hobby-close-btn").click(function () {
-        $(".hobby-t-box").fadeOut(600);
+        $(".hobby-t-box1").fadeOut(600);
+    });
+
+    $(".hobby-img2").click(function () {
+        $(".hobby-t-box2").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box2").fadeOut(600);
     });
 
 });
