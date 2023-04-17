@@ -457,6 +457,54 @@ section {
     margin-top: 9px;
 }
 
+/************************* hobby-slide **************************/
+
+.hobby-sub {
+    width: 700px;
+}
+
+.hobby-slide {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hobby-slide > li {
+    width: 450px;
+}
+
+.hobby-slide > li > img {
+    width: 450px;
+}
+
+.hobby-slide > li:first-child {
+    display: block;
+}
+
+/************************* hobby-btn **************************/
+
+.hobby-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 240px;
+}
+
+.prev, .next {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.prev {
+    padding-left: 10px;
+}
+
+.next {
+    padding-right: 10px;
+}
+
 /************************* hobby-text-box **************************/
 
 .hobby-t-box1 {
@@ -466,7 +514,7 @@ section {
     position: absolute;
     top: 9.3%;
     left: 102%;
-    display: none;
+    /* display: none; */
 }
 
 .hobby-close-btn {
@@ -487,6 +535,8 @@ section {
 .hobby-close-btn:hover {
     color: rgba(255, 230, 0, 0.801);
 }
+
+/************************* hobby-text-box2 **************************/
 
 .hobby-t-box2 {
     width: 700px;
@@ -517,7 +567,222 @@ section {
     color: rgba(255, 230, 0, 0.801);
 }
 
+/************************* hobby-text-box3 **************************/
 
+.hobby-t-box3 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box4 **************************/
+
+.hobby-t-box4 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box5 **************************/
+
+.hobby-t-box5 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box6 **************************/
+
+.hobby-t-box6 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box7 **************************/
+
+.hobby-t-box7 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box8 **************************/
+
+.hobby-t-box8 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
+
+/************************* hobby-text-box9 **************************/
+
+.hobby-t-box9 {
+    width: 700px;
+    height: 635px;
+    background: rgba(00, 00, 00, 0.8);
+    position: absolute;
+    top: 9.3%;
+    left: 102%;
+    display: none;
+}
+
+.hobby-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+}
+
+.hobby-close-btn:hover {
+    color: rgba(255, 230, 0, 0.801);
+}
 
 
 

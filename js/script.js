@@ -39,6 +39,8 @@ $(document).ready(function () {
     //     $(".close-btn").show(100);
     // });
 
+    /************** 취미 클릭 이벤트1 **************/
+
     $(".hobby-img1").click(function () {
         $(".hobby-t-box1").fadeIn(600);
     });
@@ -47,6 +49,8 @@ $(document).ready(function () {
         $(".hobby-t-box1").fadeOut(600);
     });
 
+    /************** 취미 클릭 이벤트2 **************/
+
     $(".hobby-img2").click(function () {
         $(".hobby-t-box2").fadeIn(600);
     });
@@ -54,6 +58,84 @@ $(document).ready(function () {
     $(".hobby-close-btn").click(function () {
         $(".hobby-t-box2").fadeOut(600);
     });
+
+    /************** 취미 클릭 이벤트3 **************/
+
+    $(".hobby-img3").click(function () {
+        $(".hobby-t-box3").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box3").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트4 **************/
+
+    $(".hobby-img4").click(function () {
+        $(".hobby-t-box4").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box4").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트5 **************/
+
+    $(".hobby-img5").click(function () {
+        $(".hobby-t-box5").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box5").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트6 **************/
+
+    $(".hobby-img6").click(function () {
+        $(".hobby-t-box6").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box6").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트7 **************/
+
+    $(".hobby-img7").click(function () {
+        $(".hobby-t-box7").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box7").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트8 **************/
+
+    $(".hobby-img8").click(function () {
+        $(".hobby-t-box8").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box8").fadeOut(600);
+    });
+
+    /************** 취미 클릭 이벤트9 **************/
+
+    $(".hobby-img9").click(function () {
+        $(".hobby-t-box9").fadeIn(600);
+    });
+
+    $(".hobby-close-btn").click(function () {
+        $(".hobby-t-box9").fadeOut(600);
+    });
+
+    /************** 취미 슬라이드 **************/
+
+    $(".prev").click(function () {
+        $(".hobby-slide>li").animate({left: "-100%"}, 500, function () {
+            $({opacity:"100"})
+        })
+    })
 
 });
 
