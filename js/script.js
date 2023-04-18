@@ -137,6 +137,11 @@ $(document).ready(function () {
         })
     })
 
+
+    $( '.hobby-slide' ).bxSlider ({
+        touchEnabled: (navigator.maxTouchPoints > 0),
+    });
+
 });
 
 /************** 스킬 그래프 모션 **************/
