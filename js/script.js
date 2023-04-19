@@ -138,7 +138,7 @@ $(document).ready(function () {
     })
 
 
-    $( '.hobby-slide' ).bxSlider ({
+    $( '.hobby-slide, .hobby-slide2' ).bxSlider ({
         touchEnabled: (navigator.maxTouchPoints > 0),
     });
 

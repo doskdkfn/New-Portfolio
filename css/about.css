@@ -457,7 +457,9 @@ section {
     margin-top: 9px;
 }
 
-/************************* hobby-slide **************************/
+/****************************** hobby-slide ********************************/
+
+/********************** hobby-slide1 *************************/
 
 .hobby-sub {
     width: 700px;
@@ -467,20 +469,65 @@ section {
     width: 700px;
     display: flex;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 50px;
     position: absolute;
     overflow: hidden;
 }
 
 .hobby-slide > li {
     width: 450px;
+    text-align: center;
+}
+
+.hobby-slide > li > p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .hobby-slide > li > img {
     width: 450px;
+    margin-left: 120px;
 }
 
 .hobby-slide > li:first-child {
+    display: block;
+}
+
+/********************** hobby-slide2 *************************/
+
+.hobby-sub2 {
+    width: 700px;
+}
+
+.hobby-slide2 {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hobby-slide2 > li {
+    width: 450px;
+    text-align: center;
+}
+
+.hobby-slide2 > li > p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hobby-slide2 > li > img {
+    width: 450px;
+    margin-left: 120px;
+}
+
+.hobby-slide2 > li:first-child {
     display: block;
 }
 
