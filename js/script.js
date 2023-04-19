@@ -139,7 +139,7 @@ $(document).ready(function () {
 
 
     $( '.hobby-slide, .hobby-slide2' ).bxSlider ({
-        touchEnabled: (navigator.maxTouchPoints > 0),
+        // touchEnabled: (navigator.maxTouchPoints > 0),
     });
 
 });

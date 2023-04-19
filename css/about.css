@@ -508,6 +508,7 @@ section {
     padding-top: 50px;
     position: absolute;
     overflow: hidden;
+    margin-top: 50px;
 }
 
 .hobby-slide2 > li {
