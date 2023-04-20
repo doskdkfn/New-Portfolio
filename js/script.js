@@ -138,7 +138,11 @@ $(document).ready(function () {
     })
 
 
-    $( '.hobby-slide, .hobby-slide2' ).bxSlider ({
+    $('.hobby-slide').bxSlider ({
+        // touchEnabled: (navigator.maxTouchPoints > 0),
+    });
+
+    $('.hobby-slide2').bxSlider ({
         // touchEnabled: (navigator.maxTouchPoints > 0),
     });
 
