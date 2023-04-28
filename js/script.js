@@ -131,19 +131,19 @@ $(document).ready(function () {
 
     /************** 취미 슬라이드 **************/
 
-    $(".prev").click(function () {
-        $(".hobby-slide>li").animate({left: "-100%"}, 500, function () {
-            $({opacity:"100"})
-        })
-    })
+    // $(".prev").click(function () {
+    //     $(".hobby-slide>li").animate({left: "-100%"}, 500, function () {
+    //         $({opacity:"100"})
+    //     })
+    // })
 
 
     $('.hobby-slide').bxSlider ({
-        // touchEnabled: (navigator.maxTouchPoints > 0),
+        touchEnabled: (navigator.maxTouchPoints > 0),
     });
 
     $('.hobby-slide2').bxSlider ({
-        // touchEnabled: (navigator.maxTouchPoints > 0),
+        touchEnabled: (navigator.maxTouchPoints > 0),
     });
 
 });
