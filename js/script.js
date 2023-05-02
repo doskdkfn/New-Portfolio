@@ -138,13 +138,16 @@ $(document).ready(function () {
     // })
 
 
-    $('.hobby-slide').bxSlider ({
-        touchEnabled: (navigator.maxTouchPoints > 0),
-    });
+    // $('.hobby-slide').bxSlider ({
+    //     touchEnabled: (navigator.maxTouchPoints > 0),
+    // });
 
-    $('.hobby-slide2').bxSlider ({
-        touchEnabled: (navigator.maxTouchPoints > 0),
-    });
+    // $('.hobby-slide2').bxSlider ({
+    //     touchEnabled: (navigator.maxTouchPoints > 0),
+    // });
+
+    slider = $('.hobby-slide').bxSlider();
+    slider.goToSlide(9);
 
 });
 
